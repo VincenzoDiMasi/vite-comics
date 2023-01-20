@@ -11,7 +11,11 @@ export default {
 
 <template>
 <main>
-    <section id="content-section"></section>
+    <section id="content-section">
+        <div class="container">
+            Content goes here!
+        </div>
+    </section>
     <section id="icon-section"></section>
 </main>
   
@@ -21,6 +25,10 @@ export default {
 #content-section {
     background-color: black;
     height: 100px;
+    color: white;
+    padding-top: 30px;
+    font-size: 25px;
+    
 }
 #icon-section {
     background-color: dodgerblue;
