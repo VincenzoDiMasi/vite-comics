@@ -36,6 +36,8 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* GENERICS */
 body {
   font-family: sans-serif;
   min-height: 100vh;
@@ -43,5 +45,11 @@ body {
 
 a {
   text-decoration: none;
+}
+
+/* UTILS */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 </style>
