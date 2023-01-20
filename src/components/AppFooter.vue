@@ -18,7 +18,7 @@ export default {
   
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 #navbar-footer-section {
     background-image: url("../assets/img/footer-bg.jpg");
     background-repeat: no-repeat;
@@ -27,6 +27,6 @@ export default {
 }
 #c2a-footer-section {
     height: 100px;
-    background-color: darkgray;
+    background-color: gray;
 }
 </style>

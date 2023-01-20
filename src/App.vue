@@ -29,7 +29,7 @@ export default {
 </footer>
 </template>
 
-<style>
+<style lang="scss">
 /* CSS RESET */
 * {
   margin: 0;
@@ -51,5 +51,9 @@ a {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
 }
 </style>

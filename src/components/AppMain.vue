@@ -17,7 +17,7 @@ export default {
   
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 #content-section {
     background-color: black;
     height: 100px;
