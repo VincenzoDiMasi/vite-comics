@@ -38,9 +38,9 @@ export default {
 }
 
 /* GENERICS */
-body {
-  font-family: sans-serif;
-  min-height: 100vh;
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
 }
 
 a {
