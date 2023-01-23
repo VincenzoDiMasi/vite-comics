@@ -25,9 +25,9 @@ export default {
             
 
 
-            img {
-                display: block;
-            }
+            // img {
+            //     display: block;
+            // }
         }
 
 </style>

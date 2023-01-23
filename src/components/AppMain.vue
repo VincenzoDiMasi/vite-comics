@@ -3,7 +3,10 @@ import ContentCard from './Content/ContentCard.vue';
 export default {
     name: 'AppMain',
     components: [ ContentCard ],
-    props: 'contentItems',
+    props: {
+        title: String,
+        contentItems: Object
+    },
     data() {
     return {
         
@@ -19,7 +22,7 @@ export default {
     <section id="content-section">
         <div class="container ">        
             <div class="contents-box">
-                <ContentCard v-for="contentItem in contentItems" :key="contentItem.series" :contentItem="contentItem"></ContentCard>
+                <ContentCard v-for="contentItem in contentItems" :key="series" :contentItem="contentItem"></ContentCard>
             </div>
 
         </div>
